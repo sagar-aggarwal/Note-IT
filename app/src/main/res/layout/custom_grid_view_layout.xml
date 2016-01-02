@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/shadow_1"
+    android:layout_width="210dp"
+    android:layout_height="230dp">
+        
+    <ImageView
+        android:scaleType="fitXY"
+            android:id="@+id/mian_content_imag_view"
+            android:layout_width="fill_parent"
+            android:layout_height="135dp"
+            android:adjustViewBounds="true"/>
+    <TextView
+                android:id="@+id/text_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="#01b29b"/>
+
+    <TableLayout
+            android:stretchColumns="*"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+           <TableRow>
+               <ImageView
+                   android:id="@+id/grid_alarm_view"
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_alarm_off_white_24dp"
+                   android:background="@drawable/alarm_view"/>
+
+               <TextView
+                   android:id="@+id/grid_date"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Date"
+                   android:textStyle="bold"
+                   android:textSize="12sp"
+                   android:textColor="#ff78756d"
+                   android:gravity="center"
+                   android:padding="10dp" />
+
+           </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+

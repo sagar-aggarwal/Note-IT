@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <android.support.v4.widget.DrawerLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/drawer_layout" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frame_main"/>
+
+        <LinearLayout
+            android:id="@+id/linear_draw"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="start">
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="#fffffefa"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                android:text="sgaggarwal2009@gmail.com"
+                android:background="@drawable/mordern_art"
+                android:layout_width="240dp"
+                android:layout_height="150dp" />
+
+            <ListView
+                android:id="@+id/drawer_left"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:divider="#fffff9f8"
+                android:dividerHeight="0dp"
+                android:choiceMode="singleChoice"
+                android:background="#fffff9f8" />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

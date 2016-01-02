@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/custom_view"
+        android:icon="@drawable/ic_view_comfy_white_36dp"
+        android:title="Custom View"
+        app:showAsAction="always" />
+</menu>

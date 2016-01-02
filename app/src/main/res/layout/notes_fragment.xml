@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="#ffff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/clipart"
+            android:scaleType="fitCenter"
+            android:src="@drawable/take_notes"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:visibility="gone"
+            android:divider="#fff"
+            android:dividerHeight="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/main_list_view"
+            android:gravity = "center">
+        </ListView>
+
+        <GridView
+            android:visibility="visible"
+            android:id="@+id/main_grid_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="2dp"
+            android:horizontalSpacing="2dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center">
+
+        </GridView>
+
+    <ImageButton
+        android:scaleType="center"
+        android:id="@+id/add_image_button"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/floating_action_button"
+        android:src="@drawable/ic_note_add_white_36dp"
+        android:tint="@android:color/white"/>
+
+    <ImageButton
+        android:scaleType="center"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="-45dp"
+        android:background="@drawable/simple_note_button"
+        android:src="@drawable/ic_mode_edit_white_24dp"
+        android:tint="@android:color/white"
+        android:id="@+id/simple_note"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/list_note"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:visibility="invisible"
+        android:scaleType="center"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/list_note_button"
+        android:src="@drawable/ic_view_list_white_24dp"
+        android:tint="@android:color/white"
+        android:id="@+id/list_note"
+        android:baselineAlignBottom="false"
+        android:layout_above="@+id/add_image_button"
+        android:layout_toStartOf="@+id/picture_note" />
+
+    <ImageButton
+        android:visibility="invisible"
+        android:scaleType="center"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/picture_note_button"
+        android:src="@drawable/ic_photo_camera_white_24dp"
+        android:tint="@android:color/white"
+        android:id="@+id/picture_note"
+        android:layout_above="@+id/list_note"
+        android:layout_toStartOf="@+id/voice_note" />
+    <ImageButton
+        android:visibility="invisible"
+        android:scaleType="center"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="-25dp"
+        android:background="@drawable/voice_note_button"
+        android:src="@drawable/ic_keyboard_voice_white_24dp"
+        android:tint="@android:color/white"
+        android:id="@+id/voice_note"
+        android:layout_above="@+id/picture_note"
+        android:layout_alignStart="@+id/add_image_button" />
+
+</RelativeLayout>

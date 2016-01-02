@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <item>
+        <shape>
+            <!-- set the shadow color here -->
+            <gradient android:startColor="#fffff9f0" android:centerColor="#8d3bd0e1" android:endColor="#ff31a8b5" android:angle="90" />
+        </shape>
+    </item>
+</layer-list>

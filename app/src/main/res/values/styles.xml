@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyEditTextTheme">
+        <!-- Used for the bottom line when not selected / focused -->
+        <item name="colorControlNormal">#ffff2e13</item>
+        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+    </style>
+
+    <style name="ImageViewerTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/Myaction</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Myaction" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@android:color/white</item>
+    </style>
+</resources>

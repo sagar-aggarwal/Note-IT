@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/shadow_arkalt2">
+
+    <ImageView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/notes_list_image_view"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="136dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/verticalbar_list"
+        android:layout_marginLeft="2dp"
+        android:layout_width="3sp"
+        android:layout_height="fill_parent"
+        android:background="#01b29b"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#ffff"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/notes_list_text_content"
+            android:text="Content"
+            android:textStyle="bold|italic"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp" />
+
+        <TextView
+            android:id="@+id/text_title_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="1dp"
+            android:background="#01b29b"/>
+
+        <TableLayout
+            android:layout_gravity="bottom"
+            android:layout_marginTop="6dp"
+            android:stretchColumns="*"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/list_alarm_view"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_alarm_off_white_24dp"
+                    android:background="@drawable/alarm_view"/>
+
+                <TextView
+                    android:id="@+id/list_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#ff78756d"
+                    android:gravity="center"
+                    android:padding="5dp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
