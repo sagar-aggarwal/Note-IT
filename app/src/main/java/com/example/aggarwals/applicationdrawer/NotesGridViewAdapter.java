@@ -103,7 +103,7 @@ public class NotesGridViewAdapter extends BaseAdapter {
         viewHolder.Date.setId(i);
         viewHolder.alaramview.setId(i);
 
-        
+
         return convertview;
     }
 
