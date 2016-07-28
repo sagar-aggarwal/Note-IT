@@ -22,21 +22,21 @@ Different Kind of Notes such as text notes,lists and more can be recorded in the
 <img src="/../master/Screen/Notes/2.jpg" width="200" height="400">
 <img src="/../master/Screen/Notes/4.jpg" width="200" height="400">
 
-##A)Simple Text Note
+####A)Simple Text Note
 A simple Text Note with a Title,Body and background Color(to help user stay organized). A bitmap image of the body of the note is shown in notes section. <br />
 
 <img src="/../master/Screen/AddNotes/1.jpg" width="200" height="400">
 <img src="/../master/Screen/AddNotes/2.jpg" width="200" height="400">
 <img src="/../master/Screen/AddNotes/3.jpg" width="200" height="400">
 
-##B)List Notes
+####B)List Notes
 A List Note with a Title,A simple List(Add,edit and delete)and a background color.A bitmap image of the list is shown in notes section. <br />
 
 <img src="/../master/Screen/List/1.jpg" width="200" height="400">
 <img src="/../master/Screen/List/2.jpg" width="200" height="400">
 <img src="/../master/Screen/List/3.jpg" width="200" height="400">
 
-##C)Picture Notes
+####C)Picture Notes
 As the Name Suggests User can attach a picture to the note with other features remaining the same. <br />
 
 <img src="/../master/Screen/Picture/1.jpg" width="200" height="400">
