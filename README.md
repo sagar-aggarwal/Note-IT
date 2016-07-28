@@ -7,9 +7,9 @@ Note IT is a simple note taking application that allows you to create text notes
 
 + **[Features](#features)**
   + **[Notes](#1notes)**
-    + [Simple Text Note](#2simple-text-note)
-    + [List Notes](#2list-notes)
-    + [Picture Notes](#2picture-notes)
+    + [Simple Text Note](#Asimple-text-note)
+    + [List Notes](#Blist-notes)
+    + [Picture Notes](#Cpicture-notes)
   + [Reminders](#2reminders)
   + [Archive](#3archive)
 + **[Project Maintainers](#project-maintainers)**
